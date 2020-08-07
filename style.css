@@ -1,0 +1,511 @@
+BODY
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #EAEFEA;
+}
+H1
+{
+	font-family: Calibri, Impact, sans-serif;
+	font-size: 5em;
+	font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: -5px;
+	margin: 0;
+	padding: 0;
+}
+H2
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5em;
+	border-bottom: 1px #DDDDDD solid;
+}
+H2 A
+{
+	text-decoration: none;
+}
+
+H3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.2em;
+	color: #232;
+}
+IMG
+{
+	border: 0;
+}
+A
+{
+	color: #343;
+}
+A:hover
+{
+	color: #9A9;
+}
+TABLE
+{
+}
+TD, TH
+{
+	vertical-align: top;
+	text-align: left;
+}
+TD.korostus, TH.korostus
+{
+	background-color: #FCC;
+}
+
+P.pikkutieto
+{
+	margin: 0;
+	font-size: small;
+	color: #444;
+}
+SPAN.muokkausnappi
+{
+	display: inline;
+	text-align: right;
+	float: right;
+}
+SPAN.infotext
+{
+	border-bottom: 1px #555 dotted;
+	cursor: help;
+	font-size: small;
+}
+IMG.kysymys
+{
+	cursor: help;
+}
+DIV.apulaatikko
+{
+	font-size: small;
+	margin: 0;
+	padding: 3px;
+	border: 1px #000 solid;
+	background-color: #DDF;
+	z-index: 100;
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	width: 450px;
+}
+DIV.apulaatikko IMG
+{
+	vertical-align: middle;	
+}
+DIV.blogikommentti
+{
+	font-size: small;
+	clear: both;
+}
+DIV.blogikommentti P.kommentti
+{
+	margin: 1em 0 0.5em 0;
+}
+DIV.youtube
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+DIV.lainaus
+{
+	margin: 1em;
+	padding: 0.5em;
+	border: 1px dotted #343;
+	background-color: #E5EAE5;
+	font-size: small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+OL
+{
+	margin: 0.5em;
+}
+UL
+{
+	margin: 0.5em;
+}
+
+SPAN.vippiteksti
+{
+	color: #777;
+	cursor: help;
+}
+
+TABLE.kalenteri
+{
+	border: 0;
+	background-color: #DDD;
+	padding: 1px;
+	display: inline-table;
+}
+
+TABLE.kalenteri TH
+{
+	background-color: #EEE;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+TABLE.kalenteri TH.viikko
+{
+	font-size: xx-small;
+	background-color: transparent;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+TABLE.kalenteri TD
+{
+	background-color: #EEE;
+	text-align: center;
+}
+TABLE.kalenteri TD.tyhja
+{
+	background-color: transparent;
+}
+TABLE.kalenteri TD.viikko
+{
+	background-color: transparent;
+	color: #FFF;
+}
+TABLE.kalenteri TD.luettavaa
+{
+	background-color: #FFF;
+}
+TABLE.kalenteri TD.luettavaa:hover
+{
+	background-color: #FAFCFA;
+}
+
+
+#alkuTausta
+{
+	background-color: #B0D0A0;
+}
+#alku
+{
+	padding: 0.5em 15px 0.5em 15px;
+	color: #FFF;
+	background-color: #B0D0A0;
+	text-align: left;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#kirjautuminen
+{
+	width: 200px;
+	text-align: center;
+	font-size: x-small;
+	margin: 2px;
+	border: 1px solid #9B8;
+	padding: 2px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	background-color: #B5D5A5;
+}
+#kirjautuminen P
+{
+	border: 0;
+	margin: 0;
+}
+#kirjautuminen_form, #kirjautuminen_tunnistaudu
+{
+	background-color: #E0F0D0;
+	margin: 0;
+	margin-top: 2px;
+	padding: 0;
+	border: 0;
+}
+#kirjautuminen INPUT
+{
+	font-size: x-small;
+}
+#valikkoTausta
+{
+	background-color: #E5EAE5;
+}
+#valikko
+{
+	background-color: #E5EAE5;
+	padding: 8px;
+	width: 986px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#valikko A
+{
+	background-color: #EAEFEA;
+	padding: 8px;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #444;
+}
+#valikko A:hover
+{
+	color: #777;
+	background-color: #FAFCFA;
+}
+#sisältöTausta
+{
+	background-color: #FAFAFA;
+}
+#sisältö
+{
+	padding: 10px;
+	padding-top: 0;
+	overflow: hidden;
+	clear: both;
+	background-color: #FAFAFA;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pääpalkki
+{
+	clear: left;
+	float: left;
+	width: 750px;
+}
+#sivupalkki
+{
+	clear: right;
+	width: 200px;
+	float: right;
+	border-left: 2px #E5EAE5 solid;
+	padding: 10px;
+	margin: 0;
+}
+
+#loppuTausta
+{
+	background-color: #E5EAE5;
+}
+#loppu
+{
+	clear: both;
+	padding: 0.5em 15px 0.5em 15px;
+	background-color: #E5EAE5;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#virheilmoitus
+{
+	border: 1px #E00 solid;
+	background-color: #FDD;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+#virheilmoitus IMG
+{
+	vertical-align: middle;
+}
+#virheilmoitus P
+{
+	margin: 0;
+}
+DIV.blogimerkintäOtsikkokuva
+{
+	border: 0;
+	margin: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+DIV.blogimerkintäOtsikkokuva IMG
+{
+	border: 1px #343 solid;
+}
+#selaaMerkintöjä
+{
+	text-align: center;
+	margin: 1em;
+}
+#metadata
+{
+	font-size: small;
+	font-family: "Lucida Console", "Courier New", Courier, serif;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border: 1px solid #DDD;
+	background-color: #EEE;
+}
+
+#kalenterit
+{
+	margin: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: medium !important;
+}
+
+#kalenteripaivakuvaus
+{
+	font-size: small;
+	margin: 0;
+	padding: 3px;
+	border: 1px #000 solid;
+	background-color: #FFD;
+	z-index: 100;
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	width: 450px;
+}
+
+#sivupalkki DIV, #uusimmatKommentit, #uusimmatBiisit, #satunnainenKuva
+{
+	clear: both;
+	font-size: small;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#satunnainenKuva
+{
+	text-align: center;
+}
+
+#sivupalkki H4, #uusimmatKommentit H4, #uusimmatBiisit H4, #satunnainenKuva H4
+{
+	margin: 0;
+	background-color: #E5EAE5;
+	margin-top: 5px;
+	margin-left: -10px;
+	padding: 2px;
+	padding-left: 10px;
+	font-variant: small-caps;
+	color: #444;
+	font-size: 110%;
+	text-align: left;
+}
+#sivupalkki P, #uusimmatKommentit P, #uusimmatBiisit P, #satunnainenKuva P
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+#satunnainenKuva IMG, #satunnainenKuva P
+{
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	font-size: x-small;
+}
+
+DIV.ilmoitus
+{
+	border: 1px #080 solid;
+	background-color: #DFC;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+DIV.ilmoitus IMG
+{
+	vertical-align: middle;
+}
+DIV.ilmoitus P
+{
+	margin: 0;
+}
+
+DIV.videoContainer
+{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 0;
+}
+DIV.videoContainer IMG
+{
+	vertical-align: middle;
+	margin: 10px;
+	width: 90px;
+}
+DIV.videoContainer EMBED
+{
+	padding: 0;
+	margin: 0;
+}
+
+LABEL
+{
+	border: 1px transparent solid;
+}
+LABEL:hover
+{
+	border: 1px #888 dotted;
+}
+
+#sivuHaku
+{
+	white-space: nowrap;
+	font-size: small;
+	margin: 1em auto 1em auto;
+	text-align: center;
+}
+
+#galleriakuva
+{
+	margin: 1em;
+	text-align: center;
+}
+#galleriakuva IMG
+{
+	border: 1px #343 solid;
+}
+#galleriakuvainfo
+{
+	font-size: small;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: small;
+	padding: 0.5em;
+	border: 1px solid #DDD;
+	background-color: #EEE;
+}
+
+#galleriakuvaselain
+{
+	text-align: center;
+}
+#galleriakuvaselain TABLE
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+}
+#galleriakuvaselain TR
+{
+	margin: 0;
+	padding: 0;
+}
+#galleriakuvaselain TD
+{
+	text-align: center;
+	vertical-align: middle;
+	font-size: x-large;
+	padding: 0;
+	margin: 0;
+}
